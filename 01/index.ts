@@ -1,22 +1,20 @@
-const fs = require('fs')
+const fs = require('fs');
+import { Usuario } from "../02/index";
 
-function lerArquivo(): string {
+export function lerArquivo(): string {
   const arquivoSelecionado = fs.readFileSync('./bd.json').toString();
+
   return arquivoSelecionado;
 }
 
-console.log(lerArquivo());
-
-function escrever(palavra: string) {
+export function escreverArquivo(usuario: Usuario) {
   const arquivoSelecionado = lerArquivo();
 
-  const arquivoConvertido: string[] = JSON.parse(arquivoSelecionado);
+  const arquivoConvertido: Usuario[] = JSON.parse(arquivoSelecionado);
 
-  arquivoConvertido.push(palavra);
+  arquivoConvertido.push(usuario);
 
   const json = JSON.stringify(arquivoConvertido);
 
   fs.writeFileSync('./bd.json', json);
 }
-
-console.log(escrever("Maçã"));

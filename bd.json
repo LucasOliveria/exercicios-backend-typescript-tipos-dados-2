@@ -1,1 +1,86 @@
-["Pera","Uva","banana","Maçã"]
+[
+  {
+    "nome": "Lucas Oliveira",
+    "email": "lucas-dev@email.com ",
+    "cpf": "088.824.455-22",
+    "profissao": "Programador FullStack",
+    "endereco": {
+      "cep": 50080500,
+      "rua": "Rua das Silveiras",
+      "bairro": "C",
+      "cidade": "Olinda"
+    }
+  },
+  {
+    "nome": "João Victor",
+    "email": "joao@email.com ",
+    "cpf": "188.824.555-22",
+    "profissao": "Programador Backend",
+    "endereco": null
+  },
+  {
+    "nome": "Rodrigo Costa Silva",
+    "email": "rodrigo@email.com ",
+    "cpf": "074.864.445-32",
+    "profissao": "Programador Sênior",
+    "endereco": {
+      "cep": 78265000,
+      "rua": "Rua das abóboras",
+      "bairro": "Hortência",
+      "cidade": "Capinopolis"
+    }
+  },
+  {
+    "nome": "Vanessa Holanda Filha",
+    "email": "nessa@email.com ",
+    "cpf": "000.009.400-00",
+    "profissao": "Engenheira",
+    "endereco": {
+      "cep": 78265422,
+      "rua": "Rua Dultra",
+      "bairro": "Sarolandia",
+      "cidade": "Cipe"
+    }
+  },
+  {
+    "nome": "Fernanda Calado",
+    "email": "fernandacalado@email.com ",
+    "cpf": "147.888.574-87",
+    "profissao": "Téc. de manutenção",
+    "endereco": {
+      "cep": 7826547,
+      "rua": "Rua Dultra",
+      "bairro": "Sarolandia",
+      "complemento": "5",
+      "cidade": "Sipe"
+    }
+  },
+  {
+    "nome": "Chaiene",
+    "email": "chai@email.com ",
+    "cpf": "152.152.152-15",
+    "profissao": "Programador Frontend",
+    "endereco": null
+  },
+  {
+    "nome": "Lucas",
+    "email": "lucas@email.com ",
+    "cpf": "123.123.123-12",
+    "profissao": "Programador Frontend",
+    "endereco": null
+  },
+  {
+    "nome": "Cadu",
+    "email": "cadu@email.com ",
+    "cpf": "092.092.092-92",
+    "profissao": "Programador Frontend",
+    "endereco": null
+  },
+  {
+    "nome": "Gustavo",
+    "email": "guga@email.com ",
+    "cpf": "404.500.200-20",
+    "profissao": "Téc. de manutenção",
+    "endereco": null
+  }
+]
